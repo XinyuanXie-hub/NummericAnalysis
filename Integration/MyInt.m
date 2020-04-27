@@ -1,3 +1,4 @@
+%用不同方法计算数值积分，其中option的参数：s代表Simpson，t代表梯形公式（Trapezoidal）,m代表2阶中点公式（Mid-Point n=2）
 function int=MyInt(a,b,f,option)
 if(option=='s')
     int=Simpson(a,b,f);
